@@ -4,7 +4,7 @@
   Read in Depth Docs
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://edu.polearn.xyz/q/5208980/pharos-web3-skill">
+<a href="https://edu.polearn.xyz/q/polearn/pharos-web3-skill">
   View in Proof of Learn
 </a>
 </div>
