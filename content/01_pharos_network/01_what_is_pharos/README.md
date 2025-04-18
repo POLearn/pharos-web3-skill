@@ -1,1 +1,11 @@
-# What is Pharos
+## What is Pharos Network
+
+![Pharos Modular Architecture Overview](https://docs.pharosnetwork.xyz/~gitbook/image?url=https%3A%2F%2F3757107484-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FPWjyUpCj1dFfAgOIlF6l%252Fuploads%252FdVme9c9dwI2IFlxHc3FZ%252Fimage%25201.png%3Falt%3Dmedia%26token%3D3a7b0f9f-99b5-45ef-860b-f4133ec439e0&width=768&dpr=4&quality=100&sign=a4039b91&sv=2)
+
+Pharos Network is a next-generation Layer 1 blockchain designed with a clear focus on modularity, performance, and interoperability. Named after the ancient lighthouse of Alexandria, Pharos aspires to serve as a guiding light in the blockchain space, offering a flexible and forward-looking platform for developers, institutions, and innovators.
+
+At its core, Pharos is built to bridge the traditional financial world with the decentralized finance ecosystem. Unlike conventional monolithic blockchains, Pharos embraces a modular design philosophy. This means that the core components of the blockchain—such as consensus, execution, settlement, and data availability—can be customized and extended. This flexibility allows developers to create applications and networks that are tailored to specific use cases without sacrificing performance or security.
+
+One of the defining features of Pharos is its introduction of Special Processing Networks (SPNs). These are independently customizable sub-networks that operate under the shared security and liquidity of the main Pharos chain. SPNs enable developers to build specialized environments—such as private AI networks, high-throughput financial platforms, or privacy-focused applications—while maintaining seamless communication with the broader ecosystem. This makes Pharos especially suited for applications that require unique execution environments or regulatory compliance without compromising on decentralization.
+
+Under the hood, Pharos also delivers impressive technical capabilities. It supports parallel transaction execution, sub-second finality, and compatibility with both EVM (Ethereum Virtual Machine) and WASM (WebAssembly), giving developers the tools to build powerful, scalable smart contracts using familiar languages and tools. Pharos also features a robust native storage solution and a highly efficient validator network, ensuring both data integrity and high availability.
