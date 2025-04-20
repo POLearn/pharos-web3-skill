@@ -7,5 +7,72 @@
         "description": "This course is designed to take you from foundational blockchain concepts to writing and deploying on a powerful production-ready blockchain known as Pharos Network.",
         "image": "https://raw.githubusercontent.com/POLearn/pharos-web3-skill/refs/heads/master/content/assets/cover.png"
     },
-    "quests": []
+    "quests": [
+        {
+            "path": "02_write_your_first_solidity_token/04_deploying_the_token",
+            "type": "deployment",
+            "bytecode": ""
+        },
+        {
+            "path": "02_write_your_first_solidity_token/05_minting_token",
+            "type": "transaction",
+            "args": [
+                "1000000000000000000"
+            ],
+            "abi": [
+                {
+                    "inputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "value",
+                            "type": "uint256"
+                        }
+                    ],
+                    "name": "mint",
+                    "outputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function"
+                }
+            ]
+        },
+        {
+            "path": "03_write_rust_contract_on_pharos/02_deploying_the_rust_contract",
+            "type": "deployment",
+            "bytecode": ""
+        },
+        {
+            "path": "03_write_rust_contract_on_pharos/03_calling_evm_contract_with_rust",
+            "type": "transaction",
+            "args": [
+                "_",
+                "1000000000000000000"
+            ],
+            "abi": [
+                {
+                    "inputs": [
+                        {
+                            "internalType": "address",
+                            "name": "erc20",
+                            "type": "address"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "value",
+                            "type": "uint256"
+                        }
+                    ],
+                    "name": "mintErc20",
+                    "outputs": [
+                        {
+                            "internalType": "bytes",
+                            "name": "",
+                            "type": "bytes"
+                        }
+                    ],
+                    "stateMutability": "view",
+                    "type": "function"
+                }
+            ]
+        }
+    ]
 }
