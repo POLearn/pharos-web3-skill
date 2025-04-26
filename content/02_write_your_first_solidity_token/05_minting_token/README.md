@@ -36,7 +36,7 @@ contract Token is ERC20 {
 With this addition, you can now mint tokens to any address of your choice. Recompile and redeploy the contract, making sure you’re still connected to the Pharos Devnet in MetaMask.
 
 Once deployed, head to the "mint" tab in Solide or any connected interface, and call the `mint` function. You’ll need to provide two inputs:
-- `amount`: how many tokens you’d like to mint (remember ERC-20 tokens often use 18 decimals, so minting *"1"* tokens would require inputting `1000000000000000000`)
+- `amount`: how many tokens you’d like to mint (remember ERC-20 tokens often use 18 decimals, so minting *"0.5"* tokens would require inputting `500000000000000000`)
 
 After submitting the transaction, you can check your minted balance by calling the `balanceOf` function or viewing your address on [pharosscan.xyz](https://pharosscan.xyz).
 

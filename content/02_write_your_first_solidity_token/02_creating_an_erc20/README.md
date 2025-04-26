@@ -29,6 +29,25 @@ contract Token is ERC20 {
 }
 ```
 
+Let's add a mint method, so the entire contract should look like this,
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract Token is ERC20 {
+    constructor(uint256 initialSupply) ERC20("Token", "MTK") {
+        _mint(msg.sender, initialSupply);
+    }
+
+    function mint(uint256 value) public {
+        _mint(msg.sender, value);
+    }
+}
+```
+
 This smart contract defines a basic ERC-20 token using OpenZeppelin’s widely adopted library. The contract is named `Token` and inherits from the `ERC20` base contract, which provides all the core functionalities expected of an ERC-20 token, such as balance tracking, transfers, and approvals.
 
 In the constructor, the token is initialized with a name (`"Token"`) and a symbol (`"MTK"`), both of which are used by wallets and block explorers to identify the token. The `_mint` function is called to create the initial supply and assign it to the deployer’s address (`msg.sender`).

@@ -11,13 +11,13 @@
         {
             "path": "02_write_your_first_solidity_token/04_deploying_the_token",
             "type": "deployment",
-            "bytecode": ""
+            "bytecode": "0xf8cf152ddcdbc6f9a2cbefe5ff92a408eb93b5df15f2ac5dcb5918a220804552"
         },
         {
             "path": "02_write_your_first_solidity_token/05_minting_token",
             "type": "transaction",
             "args": [
-                "1000000000000000000"
+                "500000000000000000"
             ],
             "abi": [
                 {
@@ -38,7 +38,7 @@
         {
             "path": "03_write_rust_contract_on_pharos/02_deploying_the_rust_contract",
             "type": "deployment",
-            "bytecode": ""
+            "bytecode": "0x2183669fd7c4c5b7b45b19b8aff4724141666a7d36d1732ed6a4c8fda7d95fa1"
         },
         {
             "path": "03_write_rust_contract_on_pharos/03_calling_evm_contract_with_rust",

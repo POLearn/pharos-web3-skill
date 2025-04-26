@@ -6,10 +6,10 @@ Before deploying, make sure your MetaMask wallet is connected to the Pharos Devn
 
 ### Quest - Deploy Token
 
-Let’s personalize your token. Update the token’s name and symbol in the contract to represent your project. For this exercise, rename it to `"Proof of Learn Token"` with the symbol `"PoL"`. When deploying the contract, you’ll be asked to provide constructor parameters. Input the following:
+Let’s personalize your token. Update the token’s name and symbol in the contract to represent your project. For this exercise, rename it to `"Proof of Token"` with the symbol `"POT"`. When deploying the contract, you’ll be asked to provide constructor parameters. Input the following:
 
-- Name: `"POL VRC725"`  
-- Symbol: `"POL"`
+- Name: `Proof of Token`  
+- Symbol: `POT`
 
 After deployment, you’ll receive a contract address. You can verify and explore your token by pasting this address into [pharosscan.xyz](https://pharosscan.xyz).
 
